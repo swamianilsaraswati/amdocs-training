@@ -8,7 +8,7 @@ public class HelloRestController {
 	
 	@GetMapping("hello")
 	public String sayHello() {
-		return "Hello REST API !";
+		return "Hello REST API ";
 	}
 	
 }
